@@ -139,7 +139,7 @@ with open('short_selling_behavior_report.txt', 'w') as f:
     f.write(output)
 
 # Display a pop-up message with the results
-messagebox.showinfo('Blermberg Terminal', 'blermber has finished. Results saved to short_selling_behavior_report.txt.')
+messagebox.showinfo('Blermberg Terminal', 'blermberg has finished. Results saved to short_selling_behavior_report.txt.')
 
 # Save the PDF document
 pdf_context.finish()
