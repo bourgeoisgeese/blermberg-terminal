@@ -129,7 +129,7 @@ def analyze_data():
 
 # Create a button to start the analysis
 button = tk.Button(window, text='Analyze Data', font=('Courier', 20), command=analyze_data, bg='#2a2a2a', fg='white', activebackground='#ff6600', activeforeground='white')
-button.pack(pady=30)
+
 
 # Run the GUI
 window.mainloop()
