@@ -142,9 +142,3 @@ messagebox.showinfo('Short Selling Behavior Analyzer', 'Analysis complete! Resul
 
 # Save the PDF document
 pdf_context.finish()
-
-# Display a pop-up message with the location of the PDF document
-messagebox.showinfo('Short Selling Behavior Analyzer', f'PDF report saved to {pdf_path}.')
-
-# Run the GUI
-window.mainloop()
