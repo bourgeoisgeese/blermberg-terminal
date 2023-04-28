@@ -83,7 +83,7 @@ def analyze_data():
                 pdf_context.endPage()
 
                 # Display a pop-up message box with the results
-                messagebox.showinfo(title='Short Selling Behavior Analyzer',
+                messagebox.showinfo(title='blermberg terminal short seller analysis tool',
                                     message=f'{ticker_symbol} analysis complete!\n\nShort interest ratio: {short_interest_ratio:.2f}\nShort interest volume: {short_interest_volume:,}\nDays to cover: {days_to_cover:.2f}\nPut/call ratio: {put_call_ratio:.2f}')
 
             except Exception as e:
