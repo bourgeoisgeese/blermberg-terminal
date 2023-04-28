@@ -18,11 +18,11 @@ window.tk_setPalette(background='#000000', foreground='white', activeBackground=
                      highlightBackground='#2a2a2a', highlightColor='white', highlightThickness=1)
 
 # Add a label with an old school font
-label = tk.Label(window, text='Bloomberg Terminal', font=('Courier', 30), bg='#000000', fg='white')
+label = tk.Label(window, text='blermberg terminal', font=('Courier', 30), bg='#000000', fg='white')
 label.pack(pady=20)
 
 
-# Define the function that will analyze the stock data and display the results
+# Define the function that will analyse the stock data and display the results
 def analyze_data():
     # Retrieve the threshold values from the user input
     short_interest_ratio_threshold = float(short_interest_ratio_entry.get())
@@ -35,7 +35,7 @@ def analyze_data():
 
     # Create a PDF document
     pdf_file = CGC.PDFDocumentCreateWithURL(
-        CGC.CFURLCreateWithFileSystemPath(None, 'short_selling_behavior_report.pdf', CG.kCFURLPOSIXPathStyle, False))
+        CGC.CFURLCreateWithFileSystemPath(None, 'short_selling_behaviour_report.pdf', CG.kCFURLPOSIXPathStyle, False))
     pdf_context = CGC.CGPDFContextCreateWithURL(pdf_file, ((0, 0), (612, 792)), None)
 
     # Set the watermark on the PDF document
